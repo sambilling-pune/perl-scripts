@@ -15,7 +15,7 @@ scalar(@arr);
 
 $#arr + 1;
 =cut
-my $size = qw(1 2 3 4 5);
+my $size = qw(1 2 3 4 5 6 8);
 print "\nsize = $size\n";
 exit;
 my %hash;

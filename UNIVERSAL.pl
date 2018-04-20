@@ -53,3 +53,5 @@ package main;
 	B->test();
 	
 	B->rand();
+	
+print "\nbye\n";

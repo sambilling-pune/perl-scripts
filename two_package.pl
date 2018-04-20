@@ -15,3 +15,10 @@ $self->test2::foo1();
 
 ################if Export and Export_OK are used, then to call the subroutine from test1, no need to create object
 #foo();
+sub test{
+	my($val1) = @_;
+	return sub {
+		my($val2) = @_;
+		return $val1*$val2;
+	};
+};

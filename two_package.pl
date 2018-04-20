@@ -22,3 +22,11 @@ sub test{
 		return $val1*$val2;
 	};
 };
+
+sub test1{
+	my($val1) = @_;
+	return sub {
+		my($val2) = @_;
+		return $val1*$val2;
+	};
+};
